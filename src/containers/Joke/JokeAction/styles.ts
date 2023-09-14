@@ -18,6 +18,8 @@ export const JokeActionStyled = styled.div`
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   @media (max-width: ${css.breakpoints.mobile}) {
     width: 80%;
+    gap: 36px;
+
     border: unset;
   }
 `;
@@ -32,7 +34,10 @@ export const JokeButtonLikeStyled = styled.button`
   font-size: ${rem(15)};
 
   box-shadow: 0 2px 2px #1c69c0;
-  border-radius: 4px;
+
+  @media (max-width: ${css.breakpoints.mobile}) {
+    width: 180px;
+  }
 `;
 
 export const JokeButtonDislikeStyled = styled.button`
@@ -45,5 +50,8 @@ export const JokeButtonDislikeStyled = styled.button`
   font-size: ${rem(15)};
 
   box-shadow: 0 2px 2px #19984e;
-  border-radius: 4px;
+
+  @media (max-width: ${css.breakpoints.mobile}) {
+    width: 180px;
+  }
 `;

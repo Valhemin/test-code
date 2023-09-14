@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { rem } from "../../styles/variables";
 
 export const LogoWrapStyled = styled.div`
   display: flex;
@@ -7,6 +8,6 @@ export const LogoWrapStyled = styled.div`
 `;
 
 export const LogoImageStyled = styled.img<{ width: number; height: number }>`
-  width: ${(props) => props.width}px;
-  height: ${(props) => props.height}px;
+  width: ${(props) => rem(props.width)};
+  height: ${(props) => rem(props.height)};
 `;

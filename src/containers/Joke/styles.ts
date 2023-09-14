@@ -4,10 +4,10 @@ import css, { rem } from "../../styles/variables";
 export const JokeContainerWrapStyled = styled.section``;
 
 export const JokeBodyStyled = styled.div`
-  padding: 50px 0 40px;
+  padding: 60px 0 40px;
 
   @media (max-width: ${css.breakpoints.mobile}) {
-    padding: 64px 0 40px;
+    padding: 64px 0 26px;
   }
 `;
 
@@ -16,7 +16,8 @@ export const JokeContentStyled = styled.div`
   padding: 0 40px;
 
   font-size: ${rem(18)};
-  color: #676767;
+  font-weight: 500;
+  color: #828282;
 
   @media (max-width: ${css.breakpoints.mobile}) {
     padding: 0 30px;

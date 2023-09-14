@@ -13,7 +13,7 @@ const HeaderContainer: React.FC<IHeader> = ({ }) => {
     return (
         <HeaderContainerWrapStyled >
             <HeaderContainerBodyStyled className='container'>
-                <CLogo width={50} height={50} src={logo} />
+                <CLogo width={80} height={80} src={logo} />
                 <HeaderProfile data={dataProfile} />
             </HeaderContainerBodyStyled>
         </HeaderContainerWrapStyled>

@@ -34,6 +34,7 @@ export const BannerContentSecondaryStyled = styled.div`
   font-size: ${rem(12)};
   font-weight: 600;
   @media (max-width: ${css.breakpoints.mobile}) {
-    font-size: ${rem(16)};
+    padding-right: 20px;
+    font-size: ${rem(15.5)};
   }
 `;

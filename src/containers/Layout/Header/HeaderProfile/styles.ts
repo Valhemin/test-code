@@ -15,16 +15,18 @@ export const HeaderProfileContentStyled = styled.div`
 `;
 
 export const HeaderProfileTextPrimaryStyled = styled.span`
+  font-size: ${rem(15)};
   color: #a3a3a3;
 `;
 
 export const HeaderProfileTextSecondaryStyled = styled.span`
   font-size: ${rem(14)};
-  font-weight: 600;
+  font-weight: 500;
+  color: #4e4e4e;
 `;
 
 export const HeaderProfileLogoStyled = styled.div`
-  margin-left: 16px;
+  margin-left: 4px;
 
   width: ${rem(70)};
   height: ${rem(70)};
