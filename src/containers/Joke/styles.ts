@@ -7,7 +7,7 @@ export const JokeBodyStyled = styled.div`
   padding: 60px 0 40px;
 
   @media (max-width: ${css.breakpoints.mobile}) {
-    padding: 64px 0 26px;
+    padding: 64px 0 20px;
   }
 `;
 
